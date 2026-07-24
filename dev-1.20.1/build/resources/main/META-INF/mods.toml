@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+# Client-only: skip dedicated server load.
+# Docs: https://docs.minecraftforge.net/en/1.20.1/concepts/sides/
+clientSideOnly=true
+
+[[mods]]
+modId="data_share"
+version="1.0.0"
+displayName="Data Share Mod"
+authors="WELLS"
+displayTest="IGNORE_ALL_VERSION"
+description='''Client-only Data Share Mod. Streams local player and container data as JSON over a Windows named pipe.'''
+
+[[dependencies.data_share]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.data_share]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="CLIENT"

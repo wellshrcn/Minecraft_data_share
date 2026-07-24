@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[54,)"
+license="All Rights Reserved"
+clientSideOnly=true
+
+[[mods]]
+modId="data_share"
+version="1.0.0"
+displayName="Data Share Mod"
+authors="WELLS"
+displayTest="IGNORE_ALL_VERSION"
+description='''Client-only Data Share Mod. Streams local player and container data as pretty JSON over a Windows named pipe.'''
+
+[[dependencies.data_share]]
+    modId="forge"
+    mandatory=true
+    versionRange="[54,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.data_share]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.4,1.21.5)"
+    ordering="NONE"
+    side="CLIENT"

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: data_share
+Specification-Vendor: WELLS
+Specification-Version: 1
+Implementation-Title: data_share
+Implementation-Version: 1.0.0
+Implementation-Vendor: WELLS
+Implementation-Timestamp: 2026-07-24T21:55:08+0800
+
