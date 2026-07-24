@@ -4,8 +4,8 @@ Forge **1.20.1 / 1.21.1 / 1.21.4 / 1.21.11** 客户端 Mod：采集本地玩家�
 
 完整说明：
 
-- 中文：`[README.zh-CN.md](https://github.com/wellshrcn/Minecraft_data_share/blob/main/README.zh-CN.md)`
-- English: `README.en-US.md`
+- 中文：[README.zh-CN.md](README.zh-CN.md)
+- English: [README.en-US.md](README.en-US.md)
 
 ## 约束（按 Forge 手册）
 
